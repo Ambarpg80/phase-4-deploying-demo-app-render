@@ -15,10 +15,9 @@ console.log(user)
   return (
     <Wrapper>
       <Logo>
-        <Link to="/">Reciplease</Link>
+        <Link to="/">Welcome to Reciplease</Link>
       </Logo>
       <Nav>
-        <div>Welcome,{user}</div>
         <Button as={Link} to="/new">
           New Recipe
         </Button>
