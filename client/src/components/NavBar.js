@@ -18,6 +18,7 @@ function NavBar({ user, setUser }) {
         <Link to="/">Reciplease</Link>
       </Logo>
       <Nav>
+        <div>Welcome, `${user.name}`</div>
         <Button as={Link} to="/new">
           New Recipe
         </Button>
