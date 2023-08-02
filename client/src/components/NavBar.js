@@ -11,14 +11,14 @@ function NavBar({ user, setUser }) {
       }
     });
   }
-
+console.log(user)
   return (
     <Wrapper>
       <Logo>
         <Link to="/">Reciplease</Link>
       </Logo>
       <Nav>
-        <div>Welcome, `${user.name}`</div>
+        <div>Welcome,{user}</div>
         <Button as={Link} to="/new">
           New Recipe
         </Button>
